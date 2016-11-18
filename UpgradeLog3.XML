@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="AudioSegment">
+</Property><Property Name="解决方案文件" Value="C:\百度云同步盘\ocean\工具\audioseg\AudioSegment-0710-byhaobo\AudioSegment\AudioSegment.sln">
+</Property><Property Name="用户选项文件" Value="C:\百度云同步盘\ocean\工具\audioseg\AudioSegment-0710-byhaobo\AudioSegment\AudioSegment.suo">
+</Property><Property Name="Date" Value="2015年7月10日">
+</Property><Property Name="Time" Value="10:34">
+</Property><Property Name="日志号" Value="3">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="AudioSegment.sln" Description="文件已成功备份为 C:\百度云同步盘\ocean\工具\audioseg\AudioSegment-0710-byhaobo\AudioSegment\AudioSegment.sln.old">
+</Event><Event ErrorLevel="2" Project="" Source="AudioSegment.suo" Description="创建备份文件 C:\百度云同步盘\ocean\工具\audioseg\AudioSegment-0710-byhaobo\AudioSegment\AudioSegment.suo.old 时出错">
+</Event><Event ErrorLevel="0" Project="AudioSegment" Source="AudioSegment\AudioSegment.vcproj" Description="Converting project file 'C:\百度云同步盘\ocean\工具\audioseg\AudioSegment-0710-byhaobo\AudioSegment\AudioSegment\AudioSegment.vcproj'.">
+</Event><Event ErrorLevel="1" Project="AudioSegment" Source="AudioSegment\AudioSegment.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="AudioSegment" Source="AudioSegment\AudioSegment.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="AudioSegment" Source="AudioSegment\AudioSegment.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="0" Project="AudioSegment" Source="AudioSegment\AudioSegment.vcproj" Description="Done converting to new project file 'C:\百度云同步盘\ocean\工具\audioseg\AudioSegment-0710-byhaobo\AudioSegment\AudioSegment\AudioSegment.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="AudioSegment" Source="AudioSegment\AudioSegment.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="AudioSegment.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="AudioSegment.sln" Description="Converted">
+</Event></UpgradeLog>

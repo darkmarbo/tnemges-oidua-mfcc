@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="AudioSegment" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="AudioSegment" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug Win32" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_DEBUG" />
+					<Add option="-W" />
+					<Add option="-g" />
+					<Add option="-O0" />
+				</Compiler>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="AudioSegment" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release Win32" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-DNDEBUG" />
+					<Add option="-W" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Unit filename="AudioSegment.reg" />
+		<Unit filename="ReadMe.txt" />
+		<Unit filename="AudioSegment.cpp" />
+		<Unit filename="AudioSegment.idl" />
+		<Unit filename="AudioSegmentDlg.cpp" />
+		<Unit filename="AutoSegmenter.cpp" />
+		<Unit filename="DlgProxy.cpp" />
+		<Unit filename="stdafx.cpp" />
+		<Unit filename="WaveIO.cpp" />
+		<Unit filename="AudioSegment.h" />
+		<Unit filename="AudioSegmentDlg.h" />
+		<Unit filename="AutoSegmenter.h" />
+		<Unit filename="DlgProxy.h" />
+		<Unit filename="Resource.h" />
+		<Unit filename="stdafx.h" />
+		<Unit filename="WaveIO.h" />
+		<Unit filename="res\AudioSegment.ico" />
+		<Unit filename="AudioSegment.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="res\AudioSegment.rc2" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

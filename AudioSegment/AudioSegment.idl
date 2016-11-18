@@ -1,0 +1,29 @@
+// AudioSegment.idl : AudioSegment.exe 的类型库源
+
+// 此文件将由 MIDL 编译器处理以产生
+// 类型库 (AudioSegment.tlb)。
+
+[ uuid(DE432C50-C34B-4177-A6AF-3CFC8DA585D3), version(1.0) ]
+library AudioSegment
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  CAudioSegmentDoc 的主调度接口
+	
+	[ uuid(2A88D239-A4A3-4295-B9BF-DDE43FA8E81E) ]
+	dispinterface IAudioSegment
+	{
+		properties:
+			
+		methods:
+	};
+
+	//  CAudioSegmentDoc 的类信息
+	
+	[ uuid(7511E10C-432A-47A8-8047-6E893780C0F1) ]
+	coclass AudioSegment
+	{
+		[default] dispinterface IAudioSegment;
+	};
+};
