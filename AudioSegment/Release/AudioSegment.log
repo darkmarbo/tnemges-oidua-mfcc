@@ -1,0 +1,117 @@
+﻿生成启动时间为 2017/7/14 星期五 上午 11:02:34。
+     1>项目“D:\bdy\项目-源码\AudioSegment\AudioSegment\AudioSegment.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>Midl:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\midl.exe /D NDEBUG /W1 /nologo /char signed /env win32 /h "AudioSegment_h.h" /tlb "Release\AudioSegment.tlb" /no_robust AudioSegment.idl 
+         Processing .\AudioSegment.idl
+         AudioSegment.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\oaidl.idl
+         oaidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\objidl.idl
+         objidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\unknwn.idl
+         unknwn.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\wtypes.idl
+         wtypes.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\basetsd.h
+         basetsd.h
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\guiddef.h
+         guiddef.h
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\oaidl.acf
+         oaidl.acf
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MT /Zp2 /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\AudioSegment.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MT /Zp2 /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\AudioSegment.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AudioSegment.cpp AudioSegmentDlg.cpp AutoSegmenter.cpp DlgProxy.cpp WaveIO.cpp
+         AudioSegment.cpp
+         AudioSegmentDlg.cpp
+     1>AudioSegmentDlg.cpp(266): error C2664: “CFileDialog::CFileDialog(const CFileDialog &)”: 无法将参数 5 从“char [46]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>AudioSegmentDlg.cpp(268): error C2440: “=”: 无法从“char [26000]”转换为“LPWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>AudioSegmentDlg.cpp(284): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [30]”转换为“const wchar_t *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>AudioSegmentDlg.cpp(397): error C2678: 二进制“+”: 没有找到接受“const char [6]”类型的左操作数的运算符(或没有可接受的转换)
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlsimpstr.h(643): 可能是“ATL::CSimpleStringT<TCHAR,false> ATL::CSimpleStringT<TCHAR,false>::operator +(const ATL::CSimpleStringT<TCHAR,false> &,const ATL::CSimpleStringT<TCHAR,false> &)”[通过使用参数相关的查找找到]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlsimpstr.h(654): 或       “ATL::CSimpleStringT<TCHAR,false> ATL::CSimpleStringT<TCHAR,false>::operator +(const ATL::CSimpleStringT<TCHAR,false> &,const wchar_t *)”[使用参数相关的查找找到]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlsimpstr.h(665): 或       “ATL::CSimpleStringT<TCHAR,false> ATL::CSimpleStringT<TCHAR,false>::operator +(const wchar_t *,const ATL::CSimpleStringT<TCHAR,false> &)”[使用参数相关的查找找到]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\cstringt.h(2340): 或       “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\cstringt.h(2351): 或       “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,const wchar_t *)”[使用参数相关的查找找到]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\cstringt.h(2362): 或       “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const wchar_t *,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\cstringt.h(2379): 或       “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,char)”[使用参数相关的查找找到]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\cstringt.h(2391): 或       “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(char,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\cstringt.h(2404): 或       “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,wchar_t)”[使用参数相关的查找找到]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\cstringt.h(2416): 或       “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(wchar_t,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+                 尝试匹配参数列表“(const char [6], CString)”时
+     1>AudioSegmentDlg.cpp(401): error C2678: 二进制“+”: 没有找到接受“const char [6]”类型的左操作数的运算符(或没有可接受的转换)
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlsimpstr.h(643): 可能是“ATL::CSimpleStringT<TCHAR,false> ATL::CSimpleStringT<TCHAR,false>::operator +(const ATL::CSimpleStringT<TCHAR,false> &,const ATL::CSimpleStringT<TCHAR,false> &)”[通过使用参数相关的查找找到]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlsimpstr.h(654): 或       “ATL::CSimpleStringT<TCHAR,false> ATL::CSimpleStringT<TCHAR,false>::operator +(const ATL::CSimpleStringT<TCHAR,false> &,const wchar_t *)”[使用参数相关的查找找到]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlsimpstr.h(665): 或       “ATL::CSimpleStringT<TCHAR,false> ATL::CSimpleStringT<TCHAR,false>::operator +(const wchar_t *,const ATL::CSimpleStringT<TCHAR,false> &)”[使用参数相关的查找找到]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\cstringt.h(2340): 或       “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\cstringt.h(2351): 或       “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,const wchar_t *)”[使用参数相关的查找找到]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\cstringt.h(2362): 或       “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const wchar_t *,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\cstringt.h(2379): 或       “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,char)”[使用参数相关的查找找到]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\cstringt.h(2391): 或       “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(char,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\cstringt.h(2404): 或       “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,wchar_t)”[使用参数相关的查找找到]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\cstringt.h(2416): 或       “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(wchar_t,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+                 尝试匹配参数列表“(const char [6], CString)”时
+     1>AudioSegmentDlg.cpp(412): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [32]”转换为“const wchar_t *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>AudioSegmentDlg.cpp(429): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [23]”转换为“const wchar_t *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>AudioSegmentDlg.cpp(436): error C2664: “int ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Replace(const wchar_t *,const wchar_t *)”: 无法将参数 1 从“const char [5]”转换为“wchar_t”
+                 没有使该转换得以执行的上下文
+     1>AudioSegmentDlg.cpp(443): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [5]”转换为“const wchar_t *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>AudioSegmentDlg.cpp(452): error C2664: “int ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Replace(const wchar_t *,const wchar_t *)”: 无法将参数 1 从“const char [5]”转换为“wchar_t”
+                 没有使该转换得以执行的上下文
+     1>AudioSegmentDlg.cpp(461): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [5]”转换为“const wchar_t *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>AudioSegmentDlg.cpp(466): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [20]”转换为“const wchar_t *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>AudioSegmentDlg.cpp(471): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [44]”转换为“const wchar_t *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>AudioSegmentDlg.cpp(477): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(6498): 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(6496): 或       “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+                 尝试匹配参数列表“(const char [24])”时
+     1>AudioSegmentDlg.cpp(500): error C2664: “CFileDialog::CFileDialog(const CFileDialog &)”: 无法将参数 5 从“char [57]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>AudioSegmentDlg.cpp(514): error C2678: 二进制“+”: 没有找到接受“CString”类型的左操作数的运算符(或没有可接受的转换)
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlsimpstr.h(643): 可能是“ATL::CSimpleStringT<TCHAR,false> ATL::CSimpleStringT<TCHAR,false>::operator +(const ATL::CSimpleStringT<TCHAR,false> &,const ATL::CSimpleStringT<TCHAR,false> &)”[通过使用参数相关的查找找到]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlsimpstr.h(654): 或       “ATL::CSimpleStringT<TCHAR,false> ATL::CSimpleStringT<TCHAR,false>::operator +(const ATL::CSimpleStringT<TCHAR,false> &,const wchar_t *)”[使用参数相关的查找找到]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlsimpstr.h(665): 或       “ATL::CSimpleStringT<TCHAR,false> ATL::CSimpleStringT<TCHAR,false>::operator +(const wchar_t *,const ATL::CSimpleStringT<TCHAR,false> &)”[使用参数相关的查找找到]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\cstringt.h(2340): 或       “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\cstringt.h(2351): 或       “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,const wchar_t *)”[使用参数相关的查找找到]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\cstringt.h(2362): 或       “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const wchar_t *,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\cstringt.h(2379): 或       “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,char)”[使用参数相关的查找找到]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\cstringt.h(2391): 或       “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(char,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\cstringt.h(2404): 或       “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,wchar_t)”[使用参数相关的查找找到]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\cstringt.h(2416): 或       “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(wchar_t,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+                 尝试匹配参数列表“(CString, const char [3])”时
+     1>AudioSegmentDlg.cpp(518): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(6498): 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(6496): 或       “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+                 尝试匹配参数列表“(const char [18])”时
+     1>AudioSegmentDlg.cpp(599): error C2664: “CFileDialog::CFileDialog(const CFileDialog &)”: 无法将参数 5 从“char [57]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>AudioSegmentDlg.cpp(607): error C2065: “Llogname”: 未声明的标识符
+     1>AudioSegmentDlg.cpp(657): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [14]”转换为“const wchar_t *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>AudioSegmentDlg.cpp(660): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [20]”转换为“const wchar_t *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>AudioSegmentDlg.cpp(667): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(6498): 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(6496): 或       “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+                 尝试匹配参数列表“(const char [11])”时
+         AutoSegmenter.cpp
+         DlgProxy.cpp
+         WaveIO.cpp
+     1>WaveIO.cpp(21): error C2664: “FILE *fopen(const char *,const char *)”: 无法将参数 1 从“LPCTSTR”转换为“const char *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>WaveIO.cpp(95): error C2664: “FILE *fopen(const char *,const char *)”: 无法将参数 1 从“LPCTSTR”转换为“const char *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>已完成生成项目“D:\bdy\项目-源码\AudioSegment\AudioSegment\AudioSegment.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.20

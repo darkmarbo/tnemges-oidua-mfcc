@@ -4,7 +4,7 @@
 
 
  /* File created by MIDL compiler version 7.00.0555 */
-/* at Fri Nov 18 16:17:42 2016
+/* at Fri Jul 14 13:30:25 2017
  */
 /* Compiler settings for AudioSegment.idl:
     Oicf, W1, Zp8, env=Win32 (32b run), target_arch=X86 7.00.0555 
